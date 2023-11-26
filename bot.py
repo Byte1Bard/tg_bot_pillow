@@ -126,5 +126,6 @@ def apply_filter(message: Message):
         print(e)
         bot.reply_to(message, "Что-то пошло не так. Пожалуйста, попробуйте еще раз.")
 
-
+print("bot start")
 bot.polling()
+print("bot finish")
