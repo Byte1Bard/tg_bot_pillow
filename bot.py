@@ -129,3 +129,8 @@ def apply_filter(message: Message):
 print("bot start")
 bot.polling()
 print("bot finish")
+
+print("изменеения")
+
+
+
